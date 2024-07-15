@@ -81,7 +81,7 @@ const Sidebar = () => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography variant="h4" color={colors.grey[100]}>
+                <Typography variant="h5" color={colors.grey[100]}>
                   ADMIN DASHBOARD
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
@@ -113,7 +113,7 @@ const Sidebar = () => {
                   Kanishk Jagya
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  VP Fancy Admin
+                  Super Admin
                 </Typography>
               </Box>
             </Box>
